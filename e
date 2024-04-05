@@ -7,7 +7,7 @@ import time
 for _ in range(10):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.connect(('127.0.0.1', 2004))
+        s.connect(('2.tcp.eu.ngrok.io', 13364))
         break
     except:
         time.sleep(5)
